@@ -25,7 +25,7 @@ public class Thread1 implements Runnable {
 
                 if(queue.peek() % 2 == 1)
                 {
-                    System.out.println("Thread 1 polls a Number : " + queue.poll());
+                    System.out.println("Thread 1 poll a Number : " + queue.poll());
                 }
             }
         }
